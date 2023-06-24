@@ -53,3 +53,11 @@ p{
         width: 18em;
     }
 }
+
+@media (max-width: 600px) {
+    section{
+        width: 90%;
+        margin: 40px auto; 
+       
+    }
+}
