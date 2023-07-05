@@ -9,10 +9,7 @@ body{
     background:hsl(0, 0%, 100%);
     min-height: 100vh; 
     font-family: "Hanken Grotesk";
-
 }
-
-
 
 main .result{
  max-width: 270px;
@@ -163,7 +160,10 @@ button{
     font-size: 15px;
    background-color: hsl(224, 30%, 27%);
 }
-
+.last-button:hover{
+    background-color: hsla(256, 72%, 46%, 1);
+    cursor: pointer;
+}
 .grade{
     font-weight: bold;
 }
